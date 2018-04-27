@@ -3,6 +3,8 @@ title: hexo+github搭建个人博客
 categories: 其他技术
 tags: Hexo
 date: 2018-04-26
+keywords: Hexo,博客
+description:
 ---
 
 ## 1. 安装git和nodeJs
@@ -17,8 +19,8 @@ $ sudo npm install -g hexo
 ## 3. 创建博客
 安装 Hexo 完成后，执行下列命令，Hexo 将会在指定文件夹中新建所需要的文件。
 ```
-$ hexo init <folder>
-$ cd <folder>
+$ hexo init <目录>
+$ cd <目录>
 $ npm install
 ```
 新建完成后，指定文件夹的目录如下
