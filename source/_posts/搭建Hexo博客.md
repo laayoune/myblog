@@ -1,9 +1,10 @@
 ---
 title: hexo+github搭建个人博客
 categories: 其他技术
-tags: Hexo
 date: 2018-04-26
-keywords: Hexo,博客
+tags: [Hexo,github]
+keywords: Hexo,github
+copyright: true
 description:
 ---
 

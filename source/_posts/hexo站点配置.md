@@ -1,9 +1,11 @@
 ---
 title: hexo+github搭建个人博客之：站点配置文件详细说明
 categories: 其他技术
-tags: Hexo
+tags: [Hexo,github]
 date: 2018-04-26
 keywords: Hexo,github,博客
+copyright: true
+description:
 ---
 ## 站点配置
 可以在 _config.yml 中修改大部份的配置。
