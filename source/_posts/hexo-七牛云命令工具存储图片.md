@@ -1,7 +1,7 @@
 ---
 title: hexo+七牛云命令工具存储图片.md
 date: 2018-04-28 10:37:00
-tags: hexo
+tags: Hexo
 keywords: Hexo,七牛云,图片存储
 copyright: true
 description:
