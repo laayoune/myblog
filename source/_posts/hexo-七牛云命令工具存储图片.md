@@ -1,17 +1,19 @@
 ---
-title: hexo+七牛云命令工具存储图片.md
-date: 2018-04-28 10:37:00
+title: hexo+七牛云命令工具存储图片
+date: 2018-04-28
+categories: 其他技术
 tags: Hexo
 keywords: Hexo,七牛云,图片存储
 copyright: true
 description:
 ---
+
 ##加入图片的几种方式
 
 1. Hexo文章中的图片，可以放在本地，然后和静态文件一起发布（部署）到你的空间。将图片放在source/images目录下，然后直接引入
 比较麻烦，也占用资源，想到后期图片增多的加载速度问题，果断放弃
 
-2. 使用各种图床，如：[贴图库](http://www.tietuku.com/),注册个用户,直接上传图片
+2. 使用各种图床，如：[贴图库](https://www.tietuku.com/),注册个用户,直接上传图片
 不是很稳定,而且每次都要打开web，然后上传，我是个懒人~~~~
 
 3. 使用七牛云的命令行工具
@@ -60,13 +62,13 @@ $ qshell fput <Bucket> <Key> <LocalFile> [Overwrite] [MimeType] [UpHost] [FileTy
 |UpHost|可选,上传入口地址|Y|
 |FileType|可选,文件存储类型，0(标准存储）1(低频存储)|0|
 如:
-![](http://p7vioebko.bkt.clouddn.com/2.png)
+![](https://p7vioebko.bkt.clouddn.com/2.png)
 上传后,在你的md文件中直接引入就OK了
 ```
-![](http://p7vioebko.bkt.clouddn.com/a.jpg)
+![](https://p7vioebko.bkt.clouddn.com/a.jpg)
 ```
 前面是七牛外联域名:
-![](http://p7vioebko.bkt.clouddn.com/1.png)
+![](https://p7vioebko.bkt.clouddn.com/1.png)
 2. 上传文件大小较大的文件
 ```
 $ qshell rput <Bucket> <Key> <LocalFile> [Overwrite] [MimeType] [UpHost] [FileType]

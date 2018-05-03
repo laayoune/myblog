@@ -1,12 +1,13 @@
 ---
 title: hexo+github搭建个人博客之：站点配置文件详细说明
+date: 2018-04-26
 categories: 其他技术
 tags: [Hexo,github]
-date: 2018-04-26
 keywords: Hexo,github,博客
 copyright: true
 description:
 ---
+<!-- more -->
 ## 站点配置
 可以在 _config.yml 中修改大部份的配置。
 
@@ -100,8 +101,8 @@ language: zh-Hans #网站使用的语言
 timezone: #网站时区。Hexo 默认使用您电脑的时区
 
 # URL
-## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://laayoune.github.io   #http://yoursite.com
+## If your site is put in a subdirectory, set url as 'https://yoursite.com/child' and root as '/child/'
+url: https://laayoune.github.io   #https://yoursite.com
 root: /
 permalink: :title:year:month:day/      #生成文件名字的格式  :year/:month/:day/:title/
 permalink_defaults:
@@ -149,7 +150,7 @@ tag_map:   #标签别名
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
-## http://momentjs.com/docs/#/displaying/format/
+## https://momentjs.com/docs/#/displaying/format/
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 

@@ -43,7 +43,7 @@ $ hexo g
 ```
 $ hexo s
 ```
-浏览器输入http://localhost:4000
+浏览器输入 localhost:4000
 
 到此，hexo博客算是搭建成功了，但是只能在本地看，下一步，我们把它部署到github上
 

@@ -5,8 +5,8 @@ categories: 其他技术
 tags: [Hexo,next,github]
 keywords: Hexo,next,博客
 copyright: true
+description:
 ---
-
 <!-- more -->
 按照上面两篇的文章，一个简单的博客已经搭建好了。下面介绍下主题的配置
 在 Hexo 中有两份主要的配置文件，其名称都是 _config.yml。
@@ -77,11 +77,11 @@ remove - 完全移除
 #### 设置 头像
 修改字段 avatar， 值设置成头像的链接地址
 >放置在 source/images/ 目录下 , 配置为：avatar: /images/avatar.png
-或者是完整的互联网 URI :   avatar: http://example.com/avatar.png
+或者是完整的互联网 URI :   avatar: https://example.com/avatar.png
 
 #### 设置 代码高亮主题
 NexT共有5款代码高亮主题。默认使用的是 白色的 normal 主题。可选的值有 normal，night， night blue， night bright， night eighties：
-![Markdown](http://i2.bvimg.com/643403/02909620bf7fcdf5.png)
+![Markdown](https://i2.bvimg.com/643403/02909620bf7fcdf5.png)
 更改 highlight_theme 字段，将其值设定成你所喜爱的高亮主题，例如：
 ```
 # Code Highlight theme
@@ -96,9 +96,9 @@ highlight_theme: normal
 social:
   GitHub: https://github.com/your-user-name
   Twitter: https://twitter.com/your-user-name
-  微博: http://weibo.com/your-user-name
-  豆瓣: http://douban.com/people/your-user-name
-  知乎: http://www.zhihu.com/people/your-user-name
+  微博: https://weibo.com/your-user-name
+  豆瓣: https://douban.com/people/your-user-name
+  知乎: https://www.zhihu.com/people/your-user-name
   # 等等
 ```
 
@@ -112,8 +112,8 @@ alipay: /path/to/alipay-reward-image
 #### 开启友情链接
 ```
 links:
-  MacTalk: http://macshuo.com/
-  Title: http://example.com/
+  MacTalk: https://macshuo.com/
+  Title: https://example.com/
 ```
 
 #### 订阅微信公众号
@@ -238,7 +238,7 @@ menu:
   <link rel="stylesheet" type="text/css" href="https://qzone.qq.com/gy/404/style/404style.css">
 </head>
 <body>
-  <script type="text/plain" src="http://www.qq.com/404/search_children.js"
+  <script type="text/plain" src="https://www.qq.com/404/search_children.js"
           charset="utf-8" homePageUrl="/"
           homePageName="回到我的主页">
   </script>

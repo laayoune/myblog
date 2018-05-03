@@ -19,16 +19,16 @@ DISQUS、Facebook Comments、HyperComments不符合国情
 [LeanCloud官网](https://leancloud.cn/)
 
 注册后进入控制台后点击左下角创建应用：
-![创建应用](http://p7vioebko.bkt.clouddn.com/3.jpg)
+![创建应用](https://p7vioebko.bkt.clouddn.com/3.jpg)
 
 应用创建好以后，进入刚刚创建的应用，选择左下角的设置>应用Key，然后就能看到你的appid和appkey了：
-![](http://p7vioebko.bkt.clouddn.com/4.jpg)
+![](https://p7vioebko.bkt.clouddn.com/4.jpg)
 
 为了数据安全，请注意设置自己的安全域名：
-![](http://p7vioebko.bkt.clouddn.com/5.jpg)
+![](https://p7vioebko.bkt.clouddn.com/5.jpg)
 
 配置 **主题配置文件**
-![](http://p7vioebko.bkt.clouddn.com/6.png)
+![](https://p7vioebko.bkt.clouddn.com/6.png)
 修改appid和appkey
 
 如果需要邮件提箱把notify设置为true
@@ -44,7 +44,7 @@ DISQUS、Facebook Comments、HyperComments不符合国情
 
 1. 百度提供的统计代码:
 复制 hm.js? 后面那串统计脚本 id，如下图所示：
-![创建应用](http://p7vioebko.bkt.clouddn.com/7.jpg)
+![创建应用](https://p7vioebko.bkt.clouddn.com/7.jpg)
 
 编辑 **主题配置文件**， 修改字段 baidu_analytics，值设置成你的百度统计脚本 id。
 
